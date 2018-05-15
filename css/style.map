@@ -1,0 +1,22 @@
+{
+	"version": 3,
+	"file": "../sass/style.css",
+	"sources": [
+		"../sass/style.scss",
+		"../sass/_reset.scss",
+		"../sass/_variables.scss",
+		"../sass/_header.scss",
+		"../sass/_titulo.scss",
+		"../sass/_mainsobremi.scss"
+	],
+	"sourcesContent": [
+		"@import \"_reset\";\n@import \"_variables\";\n@import \"_header\";\n@import \"_titulo\";\n@import \"_mainsobremi\";",
+		"*{\n\tpadding:0;\n\tmargin:0;\n\tbox-sizing: border-box;\n}",
+		"$amarillo:#E4B363;\n$letraTitulo:'Lora', serif;\n$letraPrincipal:'Montserrat', sans-serif;\n$letraSecundaria:'Oswald', sans-serif;",
+		"header{\n\tnav{\n\t\ttext-align:right;\n\t\tmargin-right:30px;\n\t\tmargin-top: 20px;\n\t\tul{\n\n\t\t\tli{\t\n\t\t\t\tlist-style:none;\n\t\t\t\tdisplay:inline-block;\n\t\t\t\tmargin: 0px 10px ;\n\n\t\t\t\ta{\n\t\t\t\t\tcolor:black;\n\t\t\t\t\ttext-decoration:none;\n\t\t\t\t\tfont-size:20px;\n\t\t\t\t\tfont-family: $letraSecundaria;\n\t\t\t\t\ttransition: all 0.5s;\n\t\t\t\t}\n\t\t\t\ta:hover{\n\t\t\t\t\tcolor:$amarillo;\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\t}\n}",
+		"#main_index{\n\t\tline-height:750%;\n\t\ttext-align:right;\n\t\tfont-family: $letraTitulo;\n\t#rect_amarillo{\n\t\tbackground:$amarillo;\n\t\twidth:600px;\n\t\theight:170px;\n\t\tposition:absolute;\n\t\ttop:36vh;\n\t}\n\t#textos_titulo{\n\t\tposition:absolute;\n\t\ttop:30vh;\n\t\tleft:2%;\n\t\th1{\n\t\tfont-size:150px;\n\t\t}\n\t\th2{\n\t\tfont-size:130px;\n\t\t}\n\t}\t\n}",
+		"main{\n\tsection{\n\t\tposition:relative;\n\t\t.fondo_titulo{\n\t\t\tbackground:$amarillo;\n\t\t\twidth:200px;\n\t\t\theight:50px;\n\t\t}\n\t\th2{\n\n\t\t}\n\t\tul{\n\t\t\tli{\n\n\t\t\t}\n\t\t}\n\t}\n}"
+	],
+	"mappings": ";ACAA,AAAA,CAAC,CAAA;EACA,OAAO,EAAC,CAAE;EACV,MAAM,EAAC,CAAE;EACT,UAAU,EAAE,UAAW;CACvB;;;AEJD,AACC,MADK,CACL,GAAG,CAAA;EACF,UAAU,EAAC,KAAM;EACjB,YAAY,EAAC,IAAK;EAClB,UAAU,EAAE,IAAK;CAoBjB;;;AAxBF,AAOG,MAPG,CACL,GAAG,CAIF,EAAE,CAED,EAAE,CAAA;EACD,UAAU,EAAC,IAAK;EAChB,OAAO,EAAC,YAAa;EACrB,MAAM,EAAE,QAAU;CAYlB;;;AAtBJ,AAYI,MAZE,CACL,GAAG,CAIF,EAAE,CAED,EAAE,CAKD,CAAC,CAAA;EACA,KAAK,EAAC,KAAM;EACZ,eAAe,EAAC,IAAK;EACrB,SAAS,EAAC,IAAK;EACf,WAAW,EDbC,QAAQ,EAAE,UAAU;ECchC,UAAU,EAAE,QAAS;CACrB;;;AAlBL,AAmBK,MAnBC,CACL,GAAG,CAIF,EAAE,CAED,EAAE,CAYD,CAAC,AAAA,MAAM,CAAA;EACN,KAAK,EDpBA,OAAO;CCqBZ;;;ACrBL,AAAA,WAAW,CAAA;EACT,WAAW,EAAC,IAAK;EACjB,UAAU,EAAC,KAAM;EACjB,WAAW,EFFA,MAAM,EAAE,KAAK;CEqBzB;;;AAtBD,AAIC,WAJU,CAIV,cAAc,CAAA;EACb,UAAU,EFLF,OAAO;EEMf,KAAK,EAAC,KAAM;EACZ,MAAM,EAAC,KAAM;EACb,QAAQ,EAAC,QAAS;EAClB,GAAG,EAAC,IAAK;CACT;;;AAVF,AAWC,WAXU,CAWV,cAAc,CAAA;EACb,QAAQ,EAAC,QAAS;EAClB,GAAG,EAAC,IAAK;EACT,IAAI,EAAC,EAAG;CAOR;;;AArBF,AAeE,WAfS,CAWV,cAAc,CAIb,EAAE,CAAA;EACF,SAAS,EAAC,KAAM;CACf;;;AAjBH,AAkBE,WAlBS,CAWV,cAAc,CAOb,EAAE,CAAA;EACF,SAAS,EAAC,KAAM;CACf;;;ACpBH,AACC,IADG,CACH,OAAO,CAAA;EACN,QAAQ,EAAC,QAAS;CAclB;;;AAhBF,AAGE,IAHE,CACH,OAAO,CAEN,aAAa,CAAA;EACZ,UAAU,EHJH,OAAO;EGKd,KAAK,EAAC,KAAM;EACZ,MAAM,EAAC,IAAK;CACZ",
+	"names": []
+}

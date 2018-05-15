@@ -1,0 +1,102 @@
+main{
+	section{
+		margin-top:30px;
+		.fondo_titulo1{
+			@include fondoAmarillo($amarillo,150px,30px);
+		}
+		h2{
+			font-family: $letraTitulo;
+			font-size:32px;
+			position:relative;
+			top:-27px;
+			left:7px;
+		}
+		ul{
+			li{
+				font-family: $letraPrincipal;
+			}
+		}
+		.fondo_titulo2{
+			@include fondoAmarillo($amarillo,140px,30px);
+		}
+		.trabajos{
+			display:flex;
+			list-style:none;
+			flex-wrap:wrap;
+			justify-content:space-around;
+			margin-bottom:20px;
+			
+			li{
+				margin: 10px 20px;
+				width:250px;
+				img{
+					border:4px solid $amarillo;
+					}
+				p{
+					margin-top:5px;
+					text-align:center;
+				}
+			}
+		}
+		form{
+			font-family:$letraPrincipal;
+			font-size:20px;
+			#cajanombre{
+				display:flex;
+				flex-wrap:wrap;
+				margin-bottom:30px;
+				margin-left:10px;
+				input{
+					font-size:18px;
+					border:4px solid $amarillo;
+					margin-left:20px;
+				}
+			}
+			#cajatextarea{
+				display:flex;
+				flex-wrap:wrap;
+				margin-bottom:30px;
+				margin-left:10px;
+				textarea{
+					font-size:18px;
+					border:4px solid $amarillo;
+					margin-left:15px;
+					width:300px;
+					height:250px;
+				}
+			}
+			#btnenviar{
+				background:white;
+				border:4px solid $amarillo;
+				width:200px;
+				height:50px;
+				font-size:16px;
+				font-family:$letraPrincipal;
+				position:relative;
+				left:120px;
+				transition:all 0.5s;
+			}
+			#btnenviar:hover{
+				background:$amarillo;
+			}
+		}	
+	}
+	#datoscontacto{
+			border:2px solid $amarillo;
+			width:300px;
+			height:97px;
+			margin-right:20px;
+			margin-top:150px;
+			p{
+			font-family:$letraPrincipal;
+			text-align:right;
+			padding:2px;
+			margin-right:5px;
+			}
+		}
+}
+#maincontacto{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+}

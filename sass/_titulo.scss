@@ -1,0 +1,23 @@
+#main_index{
+		line-height:750%;
+		text-align:right;
+		font-family: $letraTitulo;
+	#rect_amarillo{
+		background:$amarillo;
+		width:600px;
+		height:170px;
+		position:absolute;
+		top:36vh;
+	}
+	#textos_titulo{
+		position:absolute;
+		top:30vh;
+		left:2%;
+		h1{
+		font-size:150px;
+		}
+		h2{
+		font-size:130px;
+		}
+	}	
+}

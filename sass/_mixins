@@ -1,0 +1,5 @@
+@mixin fondoAmarillo($color, $width, $height){
+	background:$color;
+	width:$width;
+	height:$height;
+}
