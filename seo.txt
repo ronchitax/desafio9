@@ -1,0 +1,5 @@
+agregué:
+atributo lang
+página de error 404 con meta robots noindex
+meta description
+meta keywords
